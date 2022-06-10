@@ -1,4 +1,6 @@
 import React from "react";
+import "../index.css";
+import "../boostrap/css/bootstrap.min.css";
 
 const Navbar = () => {
     return <div className="navigation">
@@ -6,7 +8,7 @@ const Navbar = () => {
             <div className="row">
                 <div className="col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center">
                     <div className="logo">
-                        <a href="index.html"><img src="../images/logo.svg" /></a>
+                        <a href="index.html"><img src="../images/logo.svg" alt=""/></a>
                     </div>
                 </div>
 
