@@ -1,4 +1,8 @@
 import React from "react";
+import facebookLogo from "../images/facebook.svg";
+import linkedinLogo from "../images/linkedin.svg";
+import pinterestLogo from "../images/pinterest.svg";
+import emailLogo from "../images/email.svg";
 
 const Footer = () => {
     return <div class="footer">
@@ -7,25 +11,25 @@ const Footer = () => {
                 <div class="media-links">
                     <div class="col-sm-1 col-md-1 col-sm-offset-4 col-md-offset-4">
                         <div class="facebook">
-                            <a href="#"><img class="img-responsive" src={require("../images/facebook.svg")} /></a>
+                            <a href="#"><img class="img-responsive" src={facebookLogo} /></a>
                         </div>
                     </div>
 
                     <div class="col-sm-1 col-md-1">
                         <div class="linkedin">
-                            <a href="#"><img class="img-responsive" src="../images/linkedin.svg" /></a>
+                            <a href="#"><img class="img-responsive" src={linkedinLogo} /></a>
                         </div>
                     </div>
 
                     <div class="col-sm-1 col-md-1">
                         <div class="pinterest">
-                            <a href="#"><img class="img-responsive" src="../images/pinterest.svg" /></a>
+                            <a href="#"><img class="img-responsive" src={pinterestLogo} /></a>
                         </div>
                     </div>
 
                     <div class="col-sm-1 col-md-1">
                         <div class="email-icon">
-                            <a href="#"><img class="img-responsive" src="../images/email.svg" /></a>
+                            <a href="#"><img class="img-responsive" src={emailLogo} /></a>
                         </div>
                     </div>
                 </div>
