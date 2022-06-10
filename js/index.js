@@ -44,3 +44,6 @@ function projects() {
     doit = setTimeout(projects, 500);
   });
 }
+
+navigation();
+projects();
