@@ -1,6 +1,4 @@
 import React from "react";
-import "../index.css";
-import "../boostrap/css/bootstrap.min.css";
 
 const Navbar = () => {
     return <div className="navigation">
